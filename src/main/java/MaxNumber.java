@@ -1,8 +1,3 @@
-//«адача:
-//
-//«аполните массив случайным числами и выведите максимальное, минимальное и среднее значение.
-//
-//ƒл€ генерации случайного числа используйте метод Math.random(), который возвращает значение в промежутке [0, 1].
 
 public class MaxNumber {
     public static void main(String[] args) {
@@ -22,9 +17,9 @@ public class MaxNumber {
                 min = array[i];
             avg += array[i] / array.length;
         }
-        System.out.println(" ћаксимальное число равно " + max);
-        System.out.println(" ћинимальное число равно " + min);
-        System.out.println(" —реднее занчение равно " + avg);
+        System.out.println(" MAX = " + max);
+        System.out.println(" MIN = " + min);
+        System.out.println(" AVG = " + avg);
 
     }
 }
