@@ -12,5 +12,6 @@ public class TaskCurrentTimeMills {
         }
         long endTime = System.currentTimeMillis();
         System.out.println("Время окончания программы - " + endTime);
+        System.out.println("Выполнение программы - " + (endTime - startTime));
     }
 }
